@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Discern",
+    "slug": "discern",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "discern",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "e11922fd-133d-4191-a65e-d7864fe327e9"
+      }
+    },
+    "owner": "mignoncharly"
+  }
+}
